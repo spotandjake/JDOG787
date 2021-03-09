@@ -4,7 +4,7 @@ import './Cursor.css';
 const Cursor: React.FC = () => {
     // removed the translate as not needed anymore once i fixed up the width and height
     document.addEventListener("mousemove", (e) => {
-        document.querySelector(".cursor")!.setAttribute("style", `top: ${e.pageY}px; left: ${e.pageX - 1.25}px;`)
+        document.querySelector(".cursor")!.setAttribute("style", `top: ${e.screenY}px; left: ${e.pageX - 1.25}px;`)
     });
 
     // document.addEventListener("click", () => {
