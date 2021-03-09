@@ -37,7 +37,7 @@ const Cursor: React.FC = () => {
 
 
     return (
-        <div className="cusorContainer">
+        <div className="cursorContainer">
             <div className="cursor"></div>
         </div>
     )

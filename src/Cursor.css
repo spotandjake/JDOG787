@@ -1,5 +1,5 @@
 /* A container to stop the overflow */
-.cusorContainer {
+.cursorContainer {
     width: 100%;
     height: 100%;
     z-index: 999;
